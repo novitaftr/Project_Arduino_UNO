@@ -1,0 +1,3 @@
+## Smart Parking System Based on Arduino UNO
+
+Many parking facilities do not inform users when they are full, causing them to spend more than 10 minutes searching for a space. This system automatically opens and closes the gate and displays available slots on an LCD screen. Parking slot lights indicate if a space is free. The prototype uses an Ultrasonic HC-SR04 sensor and servo motor to control the gate, and an LDR sensor to detect parked cars, displaying results on the LCD and activating indicator lights. Testing showed the HC-SR04 detects cars within 3 cm, and the LDR detects car presence with intensity < 19 and no car with intensity > 20.
